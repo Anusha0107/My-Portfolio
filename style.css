@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color:#1a002b;
+  color: white;
+}
+
+/* All CSS styles from your previous code pasted here */
+header {
+  text-align: center;
+  padding: 60px 20px 30px;
+  background-color: #36005D;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #d1bdf5;
+}
+
+.glow-profile {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.glow-profile img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  padding: 8px;
+  background: linear-gradient(#ff9eff, #a633ff);
+  box-shadow: 0 0 25px #a633ff, 0 0 45px #a633ff44;
+  object-fit: cover;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #FFD700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.item, .about {
+  background-color: #5E2D91;
+  padding: 20px;
+  margin: 15px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.item h3 {
+  margin-bottom: 8px;
+}
+
+.item p, .about p {
+  color: #e0d2f3;
+  font-size: 1em;
+}
+
+.item a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.item a:hover {
+  color: #ffffff;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.skills-list span {
+  background-color: white;
+  color: #4B0082;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Contact Me Form */
+.contact-section {
+  padding: 40px 20px;
+  background-color: #a020f0;;
+}
+
+.contact-section h2 {
+  color: #00ffe5;
+  border-bottom: none;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1a1a2e;
+  color: white;
+  font-size: 1em;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  background-color: #a020f0;
+  color: white;
+  padding: 12px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #b833ff;
+}
+
+footer {
+  background-color: #120020;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+footer a {
+  color: white;
+  margin: 0 12px;
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+footer a:hover {
+  transform: scale(1.2);
+  color: #FFD700;
+}
